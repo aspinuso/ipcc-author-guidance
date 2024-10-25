@@ -8,23 +8,23 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-# 
+#
 # This option supports custom types so lessons can be branded
 # and themed with your own logo and alt-text (see `carpentry_description`)
 # See https://carpentries.github.io/sandpaper-docs/editing.html#adding-a-custom-logo
 carpentry: 'incubator'
 
 # Alt-text description of the lesson.
-carpentry_description: 'Lesson Description'
+carpentry_description: 'IPCC FAIR Tutorial for Authors'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'IPCC FAIR Tutorial for Authors' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: ~ # FIXME
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'ipcc, software, data, lesson, The Carpentries' # FIXME
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
@@ -34,13 +34,13 @@ life_cycle: 'pre-alpha' # FIXME
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/IPCC-AR7/ipcc-ar7.github.io' # FIXME
+source: 'https://github.com/aspinuso/ipcc-author-guidance' # FIXME
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'april.lamb@ipcc-wg3.gov' # Still need to decide who this should be
 
 # Navigation ------------------------------------------------
 #
@@ -65,21 +65,22 @@ contact: 'team@carpentries.org' # FIXME
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - introduction.md
+- tutorial.md
+- markdown.md
+- evolution_of_reports.md
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
-
-
